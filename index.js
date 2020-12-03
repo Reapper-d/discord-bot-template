@@ -30,12 +30,12 @@ bot.on("message", async message => {
     } else { //caso contrário
        var args = message.content.substring(prefix.length).split(" ")
        var cmd = args.shift().toLowerCase()
-       var command = bot.commands.get(cmd) || bot.commands.get(bot.aliases.get(cmd))
-       if(command) {
+       var command = bot.commands.get(cmd) || bot.commands.get(bot.aliases.get(cmd)) //procurando o comando na coleção "commands",caso não tiver,procura na coleção "aliases"
+       if(command) { //caso encontrar o comando
            message.channel.startTyping()
            command.execute(bot, message, args)
            message.channel.stopTyping()
-       } else {
+       } else { //caso não encontrar o comando.
            console.log("comando inexistente...")
        }
     }
