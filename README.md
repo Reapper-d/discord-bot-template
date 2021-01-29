@@ -19,7 +19,7 @@ digite no seu terminal:
 node index.js
 ```
 se tudo der certo,o seu bot irá iniciar normalmente!
-caso dê algum erro ou você precise de ajuda com alguma outra coisa,você pode pedir ajuda no servidor do discord [labBluefish!](https://discord.gg/3W479SWY4V)
+caso dê algum erro ou você precise de ajuda com alguma outra coisa,você pode pedir ajuda no servidor do discord [BlueFishLab!](https://discord.gg/9qmgASnBWZ)
 
 não se esqueça de ler a documentação do [discord.js](https://discord.js.org/#/) para entender melhor essa livraria! 
 
